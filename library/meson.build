@@ -1,3 +1,3 @@
-message('Find and build libraries')
+message('Find and configure libraries')
 
 subdir('vibe-d')
