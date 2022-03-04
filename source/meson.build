@@ -3,6 +3,8 @@ message('Configure the server app')
 mu_step_sources = [
     'app.d',
     
+    'mustep/defines.d',
+
     'mustep/config.d',
     'mustep/config_instance.d'
 ]
