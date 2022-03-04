@@ -14,6 +14,7 @@ int main(string [] args)
     SharedConfig.get().configInstance.readConfigFile(CONFIG_PATH);
 
     MuStepServer server = new MuStepServer();
+    server.start();
 
     return 0;
 }

@@ -7,6 +7,8 @@ module mustep.server;
 
 import vibe.http.router, vibe.http.server;
 import vibe.stream.tls;
+import vibe.core.core;
+
 
 import mustep.config_instance;
 import mustep.config;
@@ -19,6 +21,7 @@ import mustep.config;
 class MuStepServer
 {
     private HTTPServerSettings serverSettings;
+    private URLRouter router;
 
     public this() @trusted
     {
@@ -35,5 +38,16 @@ class MuStepServer
             serverSettings.tlsContext.useCertificateChainFile(config.cert);
             serverSettings.tlsContext.usePrivateKeyFile(config.pkey);
         }
+
+        router = new URLRouter();
+    }
+
+    /** 
+     * Run the main server thread
+     */
+    public void start() @safe
+    {
+        listenHTTP(serverSettings, router);
+        runApplication();
     }
 }
