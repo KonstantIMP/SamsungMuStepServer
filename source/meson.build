@@ -6,7 +6,9 @@ mu_step_sources = [
     'mustep/defines.d',
 
     'mustep/config.d',
-    'mustep/config_instance.d'
+    'mustep/config_instance.d',
+
+    'mustep/server.d'
 ]
 
 mu_step_binary = executable(

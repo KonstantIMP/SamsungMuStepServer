@@ -7,10 +7,13 @@ module org.kimp.mu.step;
 
 import mustep.config_instance;
 import mustep.defines;
+import mustep.server;
 
 int main(string [] args)
 {
     SharedConfig.get().configInstance.readConfigFile(CONFIG_PATH);
+
+    MuStepServer server = new MuStepServer();
 
     return 0;
 }
