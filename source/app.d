@@ -6,10 +6,11 @@
 module org.kimp.mu.step;
 
 import mustep.config_instance;
+import mustep.defines;
 
 int main(string [] args)
 {
-    SharedConfig.get().configInstance.readConfigFile("test.cfg");
+    SharedConfig.get().configInstance.readConfigFile(CONFIG_PATH);
 
     return 0;
 }
