@@ -4,3 +4,6 @@ builddir/
 
 # code-d autocomplete
 dub.*
+
+# Server's config file
+mustep.json
