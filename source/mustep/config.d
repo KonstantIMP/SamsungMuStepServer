@@ -7,7 +7,8 @@ module mustep.config;
 
 import kimp.config;
 
-struct MuStepConfig {
+struct MuStepConfig
+{
     @Argument ("port", "The binding port", 0, true, "server") ulong port = 1992;
 
     @Argument ("cert", "SSL certificate path", 0, false, "ssl") string cert = "";

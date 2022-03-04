@@ -11,7 +11,8 @@ import kimp.config;
 /** 
  * Singleton config file instance
  */
-class SharedConfig {
+class SharedConfig
+{
     private this()
     {
         configInstance = new Config!MuStepConfig();
