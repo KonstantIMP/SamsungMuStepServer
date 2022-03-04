@@ -6,7 +6,6 @@
 module mustep.config;
 
 import kimp.config;
-//import library.kimp.kimp.config;
 
 struct MuStepConfig {
     @Argument ("port", "The binding port", 0, true, "server") ulong port = 1992;
