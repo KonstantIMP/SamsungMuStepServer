@@ -7,3 +7,4 @@ project(
 message('μStep by KonstantIMP - configure')
 
 subdir('library')
+subdir('source')
