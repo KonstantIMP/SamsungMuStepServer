@@ -3,7 +3,8 @@ message('Configure the server app')
 mu_step_sources = [
     'app.d',
     
-    'mustep/config.d'
+    'mustep/config.d',
+    'mustep/config_instance.d'
 ]
 
 mu_step_binary = executable(
