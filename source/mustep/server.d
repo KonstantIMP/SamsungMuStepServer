@@ -8,7 +8,9 @@ module mustep.server;
 import vibe.http.router, vibe.http.server;
 import vibe.stream.tls;
 import vibe.core.core;
+import vibe.web.web;
 
+import mustep.api.impl;
 
 import mustep.config_instance;
 import mustep.config;
@@ -40,6 +42,7 @@ class MuStepServer
         }
 
         router = new URLRouter();
+        router.registerWebInterface(new MuStepApiImpl());
     }
 
     /** 

@@ -8,7 +8,10 @@ mu_step_sources = [
     'mustep/config.d',
     'mustep/config_instance.d',
 
-    'mustep/server.d'
+    'mustep/server.d',
+
+    'mustep/api/impl.d',
+    'mustep/api/base.d'
 ]
 
 mu_step_binary = executable(
@@ -18,5 +21,6 @@ mu_step_binary = executable(
         vibed_deps,
         kimp_dep
     ],
-    install: true
+    install: true,
+    d_args: ['-J=../views/']
 )
