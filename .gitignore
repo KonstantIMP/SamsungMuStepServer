@@ -7,3 +7,7 @@ dub.*
 
 # Server's config file
 mustep.json
+
+# Private cert and key
+mustep.crt
+mustep.key
