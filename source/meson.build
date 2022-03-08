@@ -19,7 +19,8 @@ mu_step_binary = executable(
     mu_step_sources,
     dependencies: [
         vibed_deps,
-        kimp_dep
+        kimp_dep,
+        sqlite_deps
     ],
     install: true,
     d_args: ['-J=../views/']
