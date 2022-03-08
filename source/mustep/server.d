@@ -59,8 +59,9 @@ class MuStepServer
         database.run("CREATE TABLE IF NOT EXISTS universities(
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             uid VARCHAR(64) UNIQUE NOT NULL,
-            name VARCHAR(256) UNIQUE NOT NULL,
-            address VARCHAR(256) UNIQUE NOT NULL
+            latitude DOUBLE NOT NULL,
+            longitude DOUBLE NOT NULL,
+            floors INTEGER NOT NULL
         );");
     }
 
