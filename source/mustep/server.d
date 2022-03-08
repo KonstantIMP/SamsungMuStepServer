@@ -9,6 +9,7 @@ import vibe.http.router, vibe.http.server;
 import vibe.stream.tls;
 import vibe.core.core;
 import vibe.web.web;
+import vibe.vibe : serveStaticFiles;
 
 import mustep.api.impl;
 
@@ -43,6 +44,7 @@ class MuStepServer
 
         router = new URLRouter();
         router.registerWebInterface(new MuStepApiImpl());
+        router.get("*", serveStaticFiles(config.public_path));
     }
 
     /** 

@@ -9,6 +9,7 @@ import kimp.config;
 
 struct MuStepConfig
 {
+    @Argument ("public", "Path to the static resources", 0, false, "server") string public_path = "./public/";
     @Argument ("port", "The binding port", 0, true, "server") ulong port = 1992;
 
     @Argument ("cert", "SSL certificate path", 0, false, "ssl") string cert = "";
