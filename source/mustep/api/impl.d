@@ -10,6 +10,9 @@ import vibe.http.server;
 import vibe.web.web;
 
 import mustep.api.base;
+import mustep.api.data;
+
+import d2sqlite3;
 
 /** 
  * Implementation of the server's api
@@ -17,4 +20,5 @@ import mustep.api.base;
 class MuStepApiImpl
 {
     mixin MuStepBaseApi;
+    mixin MuStepDataApi;
 }

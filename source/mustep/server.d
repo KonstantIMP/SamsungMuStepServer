@@ -11,6 +11,8 @@ import vibe.core.core;
 import vibe.web.web;
 import vibe.vibe : serveStaticFiles;
 
+import d2sqlite3;
+
 import mustep.api.impl;
 
 import mustep.config_instance;
@@ -45,6 +47,21 @@ class MuStepServer
         router = new URLRouter();
         router.registerWebInterface(new MuStepApiImpl());
         router.get("*", serveStaticFiles(config.public_path));
+    }
+
+    /** 
+     * Init database
+     */
+    public void initDatabase() @trusted
+    {
+        auto database = Database(SharedConfig.get().configInstance.cfg.db_path);
+
+        database.run("CREATE TABLE IF NOT EXISTS universities(
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            uid VARCHAR(64) UNIQUE NOT NULL,
+            name VARCHAR(256) UNIQUE NOT NULL,
+            address VARCHAR(256) UNIQUE NOT NULL
+        );");
     }
 
     /** 

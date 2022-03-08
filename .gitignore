@@ -11,3 +11,6 @@ mustep.json
 # Private cert and key
 mustep.crt
 mustep.key
+
+# Temporary database
+mustep.db

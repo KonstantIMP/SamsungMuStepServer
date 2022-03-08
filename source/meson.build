@@ -11,7 +11,8 @@ mu_step_sources = [
     'mustep/server.d',
 
     'mustep/api/impl.d',
-    'mustep/api/base.d'
+    'mustep/api/base.d',
+    'mustep/api/data.d'
 ]
 
 mu_step_binary = executable(
