@@ -11,3 +11,8 @@ mustep.key
 
 # Temporary database
 mustep.db
+
+# Build files
+*.exe
+*.dll
+*.lib
