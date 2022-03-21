@@ -1,0 +1,36 @@
+{
+    "name": "samsung_mustep_server",
+    "targetName": "server",
+    "targetType": "executable",
+    "description": "It is a server for the μStep project",
+    "license": "LGPL-3.0",
+    "authors": [
+        "KonstantIMP"
+    ],
+    "copyright": "Copyright © 2022, KonstantIMP",
+    "sourcePaths": [
+        "source/"
+    ],
+    "subPackages": [
+        {
+            "name": "kimp",
+			"targetType": "library",
+			"targetName": "kimp",
+			"version" : "1.0.0",
+			"importPaths": ["library/kimp"],
+			"sourcePaths": ["library/kimp"]
+        }
+    ],
+    "dependencies": {
+        "samsung_mustep_server:kimp": "~>1.0.0",
+        "vibe-d": "~>0.9.4",
+        "d2sqlite3": "~>1.0.0"
+    },
+    "subConfigurations": {
+        "d2sqlite3": "all-included"
+    },
+    "importPaths": [
+        "source",
+        "library/kimp"
+    ]
+}
