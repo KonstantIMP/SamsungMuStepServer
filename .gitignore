@@ -16,3 +16,4 @@ mustep.db
 *.exe
 *.dll
 *.lib
+*.pdb
