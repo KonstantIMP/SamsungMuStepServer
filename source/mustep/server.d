@@ -18,6 +18,8 @@ import mustep.api.impl;
 import mustep.config_instance;
 import mustep.config;
 
+import std.process;
+
 /** 
  * Class for the server's manage
  * It starts, inits the server
@@ -35,7 +37,7 @@ class MuStepServer
         serverSettings = new HTTPServerSettings();
 
         serverSettings.sessionStore = new MemorySessionStore();
-        serverSettings.port = cast(ushort)config.port;
+        serverSettings.port = environment.get("PORT", "8080").to!ushort;
 
         if (config.pkey.length && config.cert.length) {
             serverSettings.tlsContext = createTLSContext(TLSContextKind.server);
