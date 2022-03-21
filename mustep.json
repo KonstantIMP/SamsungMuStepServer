@@ -1,10 +1,6 @@
 {
     "server": {
-        "port": 1992
-    },
-    "ssl": {
-        "cert": "mustep.crt",
-        "pkey": "mustep.key"
+        "port": 8080
     },
     "version": 0
 }
