@@ -2,16 +2,6 @@
 build/
 builddir/
 
-# Server's config file
-mustep.json
-
-# Private cert and key
-mustep.crt
-mustep.key
-
-# Temporary database
-mustep.db
-
 # Build files
 *.exe
 *.dll
