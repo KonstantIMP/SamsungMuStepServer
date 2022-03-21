@@ -18,7 +18,7 @@ import mustep.api.impl;
 import mustep.config_instance;
 import mustep.config;
 
-import std.process;
+import std.process, std.conv;
 
 /** 
  * Class for the server's manage
