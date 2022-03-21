@@ -17,3 +17,7 @@ mustep.db
 *.dll
 *.lib
 *.pdb
+
+# Dub tmp
+.dub/
+dub.selections*
