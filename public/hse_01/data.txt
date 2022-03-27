@@ -1,0 +1,10 @@
+{
+  "name": {
+    "ru": "Высшая школа экономики",
+    "en": "Higher School of Economics"
+  },
+  "address": {
+    "ru": "г.Москва, Мясницкая 20",
+    "en": "Moscow, Myasnickaya 20"
+  }
+}
