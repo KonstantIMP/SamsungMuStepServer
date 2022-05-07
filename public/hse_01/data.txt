@@ -4,7 +4,7 @@
     "en": "Higher School of Economics"
   },
   "address": {
-    "ru": "г.Москва, Мясницкая 20",
-    "en": "Moscow, Myasnickaya 20"
+    "ru": "г.Москва, ул. Большая Ордынка, 47/7с2",
+    "en": "Moscow, Bolshaya Ordynka Street, 47/7, building 2"
   }
 }
