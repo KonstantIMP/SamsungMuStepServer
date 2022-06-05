@@ -1,0 +1,31 @@
+{
+  "number": 2,
+  "points": [
+    {
+      "uid": "stair",
+      "number": 1,
+      "latitude": 55.737344344122405, "longitude": 37.62590176303885,
+      "name": {
+        "ru": "Лестница",
+        "en": "Stairup"
+      },
+      "data": {
+        "ru": "События осени 1917 года были встречены хозяевами фабрики спокойно, все были уверены, что беспорядки долго не продлятся. Фабрика продолжала работать вплоть до августа 1918 года, после чего была национализирована и в 1920 году передана в «Главзолото», как и все остальные ювелирные производства Москвы.",
+        "en": "The events of the autumn of 1917 were met by the factory owners calmly, everyone was sure that the riots would not last long. The factory continued to work until August 1918, after which it was nationalized and in 1920 transferred to Glavzoloto, like all other jewelry production in Moscow."
+      }
+    },
+    {
+      "uid": "class",
+      "number": 2,
+      "latitude": 55.73757913198723, "longitude": 37.62590815549216,
+      "name": {
+        "ru": "Класс",
+        "en": "Lectures hall"
+      },
+      "data": {
+        "ru": "Новые владельцы осуществили крупную перестройку, вернее, надстройку. В 1948-1952 годах дом был надстроен еще двумя этажами, став четырехэтажным. При этом максимально был сохранен и перенесен на новые этажи декор уличного фасада, расположение и размер окон, внутренняя планировка. Только толщина стен стала значительно меньше. Все работы выполняли пленные немцы.",
+        "en": "The new owners have carried out a major restructuring, or rather, an add-on. In 1948-1952, the house was built on two more floors, becoming a four-story building. At the same time, the decor of the street facade, the location and size of windows, and the internal layout were preserved as much as possible and moved to new floors. Only the thickness of the walls has become much smaller. All the work was done by captured Germans."
+      }
+    }
+  ]
+}

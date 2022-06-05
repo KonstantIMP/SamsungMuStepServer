@@ -1,0 +1,31 @@
+{
+  "number": 3,
+  "points": [
+    {
+      "uid": "class",
+      "number": 1,
+      "latitude": 55.73757265012844, "longitude": 37.62610632127129,
+      "name": {
+        "ru": "Класс",
+        "en": "Lectures hall"
+      },
+      "data": {
+        "ru": "В здании сохранилась планировка помещений послевоенных времен — узкие коридоры, расположение кабинетов, три лестницы. Парадная широкая лестница начинается из просторного холла у главного входа. Остальные лестницы устроены гораздо скромнее.",
+        "en": "The building has preserved the layout of the premises of post—war times - narrow corridors, the location of offices, three staircases. The grand wide staircase starts from the spacious hall at the main entrance. The rest of the stairs are arranged much more modestly."
+      }
+    },
+    {
+      "uid": "view",
+      "number": 2,
+      "latitude": 55.737483898340685, "longitude": 37.62673856763703,
+      "name": {
+        "ru": "Внутренний двор",
+        "en": "Courtyard"
+      },
+      "data": {
+        "ru": "В 1992 году улице вернули прежнее название — Малая Ордынка. В 1997 году ликвидировали Институт повышения квалификации вместе с общежитием, а через год был издан приказ министерства о передаче функций ликвидированных образовательных учреждений другим высшим учебным заведениям, и здание было передано Высшей школе экономики.",
+        "en": "In 1992, the street was returned to its former name — Malaya Ordynka. In 1997, the Institute of Advanced Training was liquidated together with the dormitory, and a year later the Ministry issued an order on transferring the functions of the liquidated educational institutions to other higher educational institutions, and the building was transferred to the Higher School of Economics."
+      }
+    }
+  ]
+}

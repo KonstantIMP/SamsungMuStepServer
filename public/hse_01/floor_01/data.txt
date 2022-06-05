@@ -1,0 +1,84 @@
+{
+  "number": 1,
+  "points": [
+    {
+      "uid": "entrance",
+      "number": 1,
+      "latitude": 55.734262,
+      "longitude": 37.624453,
+      "name": {
+        "ru": "Здание университета",
+        "en": "The university building"
+      },
+      "data": {
+        "ru": "Среди застройки Большой Ордынки особо выделяется двухэтажный особняк по адресу 47-7с1. Он имеет массивный гранитный цоколь, прекрасные чугунные навесы над входами в здание, широкие окна. Это здание – бывшее Александро-Мариинское училище XIX века.\n\tСегодня мы узнаем о его истории, а также попадаем внутрь особняка и посмотрим, что там сохранилось с дореволюционных времен (а сохранилось там много чего!).",
+        "en": "A two-story mansion at 47-7s1 stands out among the Bolshaya Ordynka buildings. It has a massive granite plinth, beautiful cast-iron canopies over the entrances and wide windows. This building is the former Aleksandro-Mariinsky College of the 19th century. \n\tToday we will learn about its history, and get inside the mansion and see what has been preserved there since pre-revolutionary times (and there is a lot!)."
+      }
+    },
+    {
+      "uid": "hall",
+      "number": 2,
+      "latitude": 55.73412789678373, "longitude": 37.624613027509746,
+      "name": {
+        "ru": "Главный холл",
+        "en": "Main hall"
+      },
+      "data": {
+        "ru": "С дореволюционных времен фасад здания почти не изменился – все архитектурные детали на месте. Исключение – двери, их заменили, к сожалению, на железные.\n\tЗдание было построено знаменитым архитектором А.С. Каминским в 70-е годы XIX века. Причина, по которой было учреждено училище, крайне необычная.",
+        "en": "Since pre–revolutionary times, the facade of the building has hardly changed - all the architectural details are in place. The exception is the doors, they were replaced, unfortunately, with iron ones.\n\tThe building was built by the famous architect A.S. Kaminsky in the 70s of the XIX century. The reason why the school was established is extremely unusual."
+      }
+    },
+    {
+      "uid": "hallway",
+      "number": 3,
+      "latitude": 55.73422973181368, "longitude": 37.62463846001916,
+      "name": {
+        "ru": "Коридор",
+        "en": "Hallway"
+      },
+      "data": {
+        "ru": "Император Александр II в 1862 году посетил Москву. На встречу с императором были приглашены представители всех сословий. На встрече император обратился к городскому голове М. Королёву с вопросом: \"Как твоя фамилия?\"\n\tКоролёв понял значение слово \"фамилия\" в старом варианте, оно обозначало \"семью\". Не задумываясь, городской голова ответил императору: \"Все в порядке, только хозяйка захворала\".\n\tИмператор пожелал здоровья жене Королёва и сказал, что планирует проведать их семью вместе с императрицей.",
+        "en": "Emperor Alexander II visited Moscow in 1862. Representatives of all classes were invited to the meeting with the emperor. At the meeting, the emperor addressed the mayor M. Korolev with the question: \"What is your last name?\"\n\tKorolev understood the meaning of the word \"surname\" in the old version, it meant \"family\". Without hesitation, the mayor replied to the emperor: \"Everything is fine, only the hostess is ill.\"\n\tThe Emperor wished health to the Queen's wife and said that he planned to visit their family together with the Empress."
+      }
+    },
+    {
+      "uid": "class",
+      "number": 4,
+      "latitude": 55.7342797673253, "longitude": 37.624589811579355,
+      "name": {
+        "ru": "Класс",
+        "en": "Class"
+      },
+      "data": {
+        "ru": "Через какое-то время император Александр II, как и обещал, навестил семью Королёва. Там он долго общался с городским головой, представителями купечества, а императрица Марии Александровны пока пила чай в гостиной с женой Королёва.",
+        "en": "After some time, Emperor Alexander II, as promised, visited the Korolev family. There he talked for a long time with the mayor, representatives of the merchants, and the Empress Maria Alexandrovna while drinking tea in the living room with his wife the Queen."
+      }
+    },
+    {
+      "uid": "stair",
+      "number": 5,
+      "latitude": 55.73425262222768, "longitude": 37.62478667836934,
+      "name": {
+        "ru": "Лесница на 2ой этаж",
+        "en": "Upstairs"
+      },
+      "data": {
+        "ru": "Это событие произвело очень сильное впечатление на самого Королёва, на представителей купечества. После этого Королёв пожертвовал огромную сумму на учреждение бесплатного Александро-Мариинского училища. Туда брали детей (мальчиков и девочек) из беднейших слоев населения. В училище бесплатно кормили детей, оказывали им медицинскую помощь.",
+        "en": "This event made a very strong impression on Korolev himself, on the representatives of the merchant class. After that, Korolev donated a huge sum for the establishment of a free Alexander-Mariinsky School. Children (boys and girls) from the poorest strata of the population were taken there. The school fed the children free of charge, provided them with medical care."
+      }
+    },
+    {
+      "uid": "something",
+      "number": 6,
+      "latitude": 55.73437519166128, "longitude": 37.6246971934648,
+      "name": {
+        "ru": "Проход",
+        "en": "Passage"
+      },
+      "data": {
+        "ru": "В итоге, через пару лет на средства Королёва и московского купеческого общества было построено красивейшее и просторное училище. Обратите внимание на фотографии парадной каменной лестницы с чугунной оградой. Как в лучших дворянских усадьбах!",
+        "en": "As a result, a couple of years later, a beautiful and spacious school was built at the expense of Korolev and the Moscow merchant society. Pay attention to the photos of the front stone staircase with a cast-iron fence. As in the best noble estates!"
+      }
+    }
+  ]
+}

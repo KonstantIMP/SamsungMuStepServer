@@ -1,0 +1,31 @@
+{
+  "number": 1,
+  "points": [
+    {
+      "uid": "street",
+      "number": 1,
+      "latitude": 55.73732777931924, "longitude": 37.625713825192825,
+      "name": {
+        "ru": "Здание университета",
+        "en": "The university building"
+      },
+      "data": {
+        "ru": "В 1950-е годы в вентиляции одной из комнат в этом здании нашли золотой подсвечник — напоминание о том, что изначально здесь была ювелирная фабрика. В советские годы в этом доме располагался кожевенно-обувной техникум, общежитие и институт повышения квалификации инженерно-технических работников.",
+        "en": "In the 1950s, a gold candlestick was found in the ventilation of one of the rooms in this building — a reminder that there was originally a jewelry factory here. In Soviet times, this house housed a leather and shoe college, a dormitory and an institute for advanced training of engineering and technical workers."
+      }
+    },
+    {
+      "uid": "into",
+      "number": 2,
+      "latitude": 55.73745021489388, "longitude": 37.62598742178818,
+      "name": {
+        "ru": "Внутренний двор",
+        "en": "Courtyard"
+      },
+      "data": {
+        "ru": "Краснокирпичный дом на улице Малая Ордынка является характерным примером эклектики конца XIX века. Построенный как фабричное здание для ювелирного производства, после 1917 года он имел совершенно иную судьбу.",
+        "en": "The red brick house on Malaya Ordynka Street is a typical example of the eclecticism of the late XIX century. Built as a factory building for jewelry production, after 1917 it had a completely different fate."
+      }
+    }
+  ]
+}

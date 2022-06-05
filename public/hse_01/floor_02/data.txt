@@ -1,0 +1,57 @@
+{
+    "number": 2,
+    "points": [
+        {
+            "uid": "second",
+            "number": 1,
+            "latitude": 55.73423829590805, "longitude": 37.62478102669419,
+            "name": {
+                "ru": "Второй этаж",
+                "en": "The second floor"
+            },
+            "data": {
+                "ru": "Дети получали в училище хорошее первоначальное образование. Дальше они могли с легкостью поступить в гимназию, коммерческое или реальное училище. Для детей из бедных слоев населения обучение здесь являлось шансом вырваться из нищеты.",
+                "en": "The children received a good initial education at the school. Then they could easily enter a gymnasium, a commercial or a real school. For children from poor backgrounds, studying here was a chance to escape from poverty."
+            }
+        },
+        {
+            "uid": "class",
+            "number": 2,
+            "latitude": 55.734384211894174, "longitude": 37.624713206534814,
+            "name": {
+                "ru": "Класс для занятий",
+                "en": "Students class"
+            },
+            "data": {
+                "ru": "В училище заботились не только о учениках, но и о учителях. Для них во дворе было построено каменное жилое здание. Кстати говоря, именно в этом здании в 1888 году родился соратник В.И. Ленина Николай Бухарин. Сейчас в здании уже иная планировка. В какой-то из нынешних семинарских аудиторий и появился на свет Н. Бухарин.",
+                "en": "The school took care not only of the students, but also of the teachers. A stone residential building was built for them in the courtyard. By the way, it was in this building that Lenin's colleague Nikolai Bukharin was born in 1888. Now the building has a different layout. It was in one of the current seminar classrooms that N. Bukharin was born."
+            }
+        },
+        {
+            "uid": "teacher",
+            "number": 3,
+            "latitude": 55.73421601051876, "longitude": 37.62457756627361,
+            "name": {
+                "ru": "Кабинет",
+                "en": "A cabinet"
+            },
+            "data": {
+                "ru": "В советские годы тут была открыта школа, позже здесь основали Педагогический техникум. Он существовал тут очень долгое время. Сейчас здание занимает НИУ ВШЭ.",
+                "en": "In the Soviet years, a school was opened here, later a Pedagogical college was founded here. It has existed here for a very long time. Now the building is occupied by the HSE."
+            }
+        },
+        {
+            "uid": "audience",
+            "number": 4,
+            "latitude": 55.73410882815028, "longitude": 37.62457756627361,
+            "name": {
+                "ru": "Аудитория",
+                "en": "Lecture hall"
+            },
+            "data": {
+                "ru": "В одной из аудиторий сохранилась еще оригинальная лепнина! Правда через один элемент провели трубу отопления... В других классах, к сожалению, декоративные элементы не уцелели, а может их там не было вовсе.",
+                "en": "In one of the classrooms, the original stucco is still preserved! However, a heating pipe was passed through one element... In other classes, unfortunately, the decorative elements did not survive, or maybe they were not there at all."
+            }
+        }
+    ]
+}
